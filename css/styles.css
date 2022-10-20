@@ -43,3 +43,9 @@ section {
   margin-right: 0.5rem;
   color: rgb(240, 240, 240);
 }
+
+.card-img-top {
+  width: 100%;
+  height: 24vw;
+  object-fit: cover;
+}
