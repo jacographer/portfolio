@@ -37,3 +37,9 @@ header {
 section {
   padding: 80px 0;
 }
+
+.list-unstyled i {
+  width: 0.8rem;
+  margin-right: 0.5rem;
+  color: rgb(240, 240, 240);
+}
