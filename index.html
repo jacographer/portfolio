@@ -86,8 +86,11 @@
         <div class="row">
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100 bg-dark">
-              <a target="_blank" href="https://jacographer.com/vegas-bars"
-                ><img
+              <!-- <a target="_blank" href="https://jacographer.com/vegas-bars"
+                > -->
+                <a href="#" data-bs-toggle="modal" data-bs-target="#vegas-bars">
+      
+                <img
                   class="card-img-top"
                   src="images/lv-bar-thumb.png"
                   alt=""
@@ -100,6 +103,24 @@
                   Las Vegas area bars displayed by number of demerits on their most recent health inspection. Produced with Leaflet using data from the City of Las Vegas.<br><br><a target="_blank" href="https://jacographer.com/vegas-bars">Access Map</a>
                 </p>
               </div>
+            </div>
+          </div>
+          <!-- Modal for above card. -->
+          <div class="modal fade" id="vegas-bars" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-white" id="exampleModalLabel">Preview text</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://images.freeimages.com/images/small-previews/04e/sunset-1189623.jpg" class="w-100" alt="Preview of map.">
+                        <p>Visit <a href="#">map link</a></p> 
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
