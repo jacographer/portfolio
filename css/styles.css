@@ -19,14 +19,14 @@ a:hover {
 
 
 header {
-  padding: 154px 0 100px;
+  padding: 60px 0 75px;
   background-color: rgb(28, 28, 28);
 }
 
 /* media query when the media is wider than 992px */
 @media (min-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    padding: 120px 0 140px;
   }
 }
 
