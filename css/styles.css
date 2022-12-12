@@ -4,17 +4,44 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
  */
 
-body, h1, h2, h3 {
-  font-family: Raleway;
-  color: antiquewhite;
+body {
+  font-family: 'Raleway', sans-serif;
+  color: bisque  
 }
 
-a {
-  color: DarkCyan;
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: darksalmon
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: darksalmon
+}
+
+a:link {
+  color: lightcyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightcyan;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
+  color: darkcyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
   color: lightcyan;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 
