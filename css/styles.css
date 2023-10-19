@@ -5,21 +5,26 @@
  */
 
 body {
-  font-family: Raleway;
+  font-family: 'Helvetica Neue';
   color: bisque;
+  font-weight: 200;
 }
 
 h1, h2, h3, h4 {
-  font-family: Raleway;
+  font-family: 'Helvetica Neue';
   color: darksalmon;
+  font-weight: 500;
 }
 
 a {
   color: lightcyan;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 a:hover {
   color: darkcyan;
+  text-decoration: none;
 }
 
 
