@@ -59,3 +59,8 @@ section {
   height: 24vw;
   object-fit: cover;
 }
+
+hr {
+  width: 100%;
+  border: 1px solid darksalmon;
+}
