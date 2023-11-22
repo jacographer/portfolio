@@ -8,6 +8,7 @@ body {
   font-family: 'Helvetica Neue';
   color: bisque;
   font-weight: 200;
+  background-color: rgb(34, 37, 41);
 }
 
 h1, h2, h3, h4 {
