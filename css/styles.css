@@ -8,7 +8,18 @@ body {
   font-family: 'Helvetica Neue';
   color: bisque;
   font-weight: 200;
-  background-color: rgb(34, 37, 41);
+  background-color: rgb(28, 28, 28);
+}
+
+footer {
+  font-size: 0.8rem;
+  left: 0;
+  bottom: 0;
+  height: 2.5rem;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background-color: rgb(28, 28, 28);
 }
 
 h1, h2, h3, h4 {
@@ -62,6 +73,7 @@ section {
 }
 
 hr {
-  width: 100%;
+  width: 85%;
   border: 1px solid darksalmon;
+  margin: 0.35rem; 
 }
