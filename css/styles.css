@@ -9,6 +9,7 @@ body {
   color: bisque;
   font-weight: 200;
   background-color: rgb(28, 28, 28);
+  letter-spacing: .05rem;
 }
 
 footer {
